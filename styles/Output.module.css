@@ -16,3 +16,15 @@
     cursor: pointer;
     object-fit: cover;
 }
+@media screen and (max-width:1100px) {
+    .image__block {
+        width: 30% !important;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .image__block {
+        width: 44%;
+    }
+}
+
