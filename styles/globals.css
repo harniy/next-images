@@ -37,8 +37,14 @@ main {
   flex: 1 0 auto;
 }
 
-footer{
+footer {
   flex: 0 0 auto;
+  background-color: #141516;
+  color: #cddc39;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .swiper-wrapper {

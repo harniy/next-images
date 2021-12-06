@@ -3,7 +3,7 @@
 export default function Footer() {
     return(
         <footer>
-            Footer
+            (c) Create for Test
         </footer>
     )
 }

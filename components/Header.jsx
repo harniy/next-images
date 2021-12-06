@@ -8,8 +8,8 @@ export default function Header() {
 
   return (
     <header className={style.header}>
-      <h3 style={{ cursor: "pointer" }} onClick={refreshPage}>
-        Images
+      <h3 style={{ cursor: "pointer", fontWeight: 300 }} onClick={refreshPage}>
+        Images<span style={{fontWeight: 600, color: '#03a9f4'}}>Searcher</span>
       </h3>
     </header>
   );
