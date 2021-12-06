@@ -1,0 +1,8 @@
+.header {
+    display: flex;
+    align-items: center;
+    height: 70px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0 50px;
+    box-shadow: 1px -5px 9px 0 #7e87f9;
+}

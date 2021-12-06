@@ -1,0 +1,22 @@
+.input__block {
+    margin: 0 auto;
+    width: 311px;
+    margin-top: 150px;
+    font-family: 'poppins';
+    transition: margin-top .3s;
+    position: relative;
+}
+
+.input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+    font-size: 15px;
+}
+
+.input__title {
+    position: absolute;
+    top: -45px;
+    transition: opacity .6s;
+}

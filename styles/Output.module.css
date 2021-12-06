@@ -1,0 +1,18 @@
+.images__container {
+    width: 90%;
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.image__block {
+    width: 24%;
+    margin: 5px;
+}
+
+.image__style {
+    width: 100%;
+    cursor: pointer;
+    object-fit: cover;
+}
