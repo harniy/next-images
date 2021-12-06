@@ -6,6 +6,7 @@ import Input from "../components/Input";
 import Spinner from "../components/Spinner";
 import Output from "../components/Output";
 
+
 export default function Home() {
   const [imageName, setImageName] = useState("");
   const [isSearch, setIsSearch] = useState(false);

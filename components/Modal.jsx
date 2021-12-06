@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -27,12 +29,20 @@ export default function Modal({ imageUrl, setIsModal, images }) {
 
   return (
     <div style={style}>
-      <Swiper navigation={true} className="mySwiper" loop={true} initialSlide={currentImageId}> 
-        {images.map(({contentUrl}, id) => (
+      <Swiper
+        navigation={true}
+        className="mySwiper"
+        loop={true}
+        initialSlide={currentImageId}
+      >
+        {images.map(({ contentUrl }, id) => (
           <SwiperSlide key={id}>
-            <img
-              style={{ maxHeight: "90vh", maxWidth: "90vw" }}
+            <Image
               src={contentUrl}
+              width={1000}
+              height={500}
+              objectFit="cover"
+              loader={() => contentUrl}
               alt=""
               onClick={() => setIsModal(false)}
             />
